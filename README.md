@@ -3,7 +3,7 @@
 
 Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros: 
 ## *start_point_selection_model.model3*
- * Satur izstrādāto modeli reljefa datu apstrādei un potenciālo slēpošanas trašu sākumpunktu atlasei kādam konkrētam digitālajam augstuma modelim, kuru var ielādēt, piemēram, no https://opentopography.org/
+ * Satur izstrādāto modeli reljefa datu apstrādei un potenciālo slēpošanas trašu sākumpunktu atlasei (aprakstīts 5. nodaļā) kādam konkrētam digitālajam augstuma modelim, kuru var ielādēt, piemēram, no https://opentopography.org/
  * Modeļa izmantošanai nepieciešama lejupielādēta **QGIS** programmatūra ar **QuickOSM** spraudni:
     * https://qgis.org/
     * https://plugins.qgis.org/plugins/QuickOSM/
@@ -11,7 +11,7 @@ Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros:
 ## 
 
 ## 
-* Satur izstrādāto **Python** kodu slēpošanas trašu un koridoru ģenerēšanai, izmantojot modeļa izgūtos reljefa datus un atlasītos sākumpunktus
+* Satur izstrādāto **Python** kodu slēpošanas trašu un koridoru ģenerēšanai (aprakstīts 6. nodaļā), izmantojot modeļa izgūtos reljefa datus un atlasītos sākumpunktus
 * Svarīgi, lai pirms koda darbināšanas tiktu izpildīts iepriekš minētais modelis
 * Visiem modeļa izvades failiem jāatrodas `data/` mapē, lai programma varētu tos nolasīt
 * Koda sākumā atrodas vairāki parametru mainīgie (ar piešķirtām noklusējuma vērtībām), kurus mainot, var iegūt dažādus ģenerēšanas rezultātus, piemēram, palielināt ģenerēto trašu skaitu katram punktam (parametri ir aprakstīti darbā)
