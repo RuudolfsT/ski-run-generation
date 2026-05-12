@@ -8,7 +8,7 @@ Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros:
     * https://qgis.org/
     * https://plugins.qgis.org/plugins/QuickOSM/
  * Failu var atvērt kā **QGIS Model Designer** modeli, kur tam no sākuma var mainīt  parametrus, kas aprakstīti darbā
- * Svarīgi norādīt konkrētu _output_folder_, kurā tiks saglabāti modeļa izvades faili (tie tiks nolasīti **Python** kodā
+ * Svarīgi norādīt konkrētu _output_folder_, kurā tiks saglabāti modeļa izvades faili (tie tiks nolasīti **Python** kodā)
 ## 
 
 ## 
