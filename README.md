@@ -8,12 +8,13 @@ Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros:
     * https://qgis.org/
     * https://plugins.qgis.org/plugins/QuickOSM/
  * Failu var atvērt kā **QGIS Model Designer** modeli, kur tam no sākuma var mainīt  parametrus, kas aprakstīti darbā
+ * Svarīgi norādīt konkrētu _output_folder_, kurā tiks saglabāti modeļa izvades faili (tie tiks nolasīti **Python** kodā
 ## 
 
 ## 
 * Satur izstrādāto **Python** kodu slēpošanas trašu un koridoru ģenerēšanai (aprakstīts 6. nodaļā), izmantojot modeļa izgūtos reljefa datus un atlasītos sākumpunktus
 * Svarīgi, lai pirms koda darbināšanas tiktu izpildīts iepriekš minētais modelis
-* Visiem modeļa izvades failiem jāatrodas `data/` mapē, lai programma varētu tos nolasīt
+* Visiem modeļa izvades failiem jāatrodas zināmā mapē (pēc noklusējuma `data/` mape), lai programma varētu tos nolasīt
 * Koda sākumā atrodas vairāki parametru mainīgie (ar piešķirtām noklusējuma vērtībām), kurus mainot, var iegūt dažādus ģenerēšanas rezultātus, piemēram, palielināt ģenerēto trašu skaitu katram punktam (parametri ir aprakstīti darbā)
 * Jāpārliecinās, ka ir lejupielādētas vajadzīgās bibliotēkas: 
     * `pip install rasterio geopandas numpy matplotlib shapely`
