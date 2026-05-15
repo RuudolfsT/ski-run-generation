@@ -11,7 +11,7 @@ Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros:
  * Svarīgi norādīt konkrētu _output_folder_, kurā tiks saglabāti modeļa izvades faili (tie tiks nolasīti **Python** kodā)
 ## 
 
-## 
+## *ski_run_generator.py*
 * Satur izstrādāto **Python** kodu slēpošanas trašu un koridoru ģenerēšanai (aprakstīts 6. nodaļā), izmantojot modeļa izgūtos reljefa datus un atlasītos sākumpunktus
 * Svarīgi, lai pirms koda darbināšanas tiktu izpildīts iepriekš minētais modelis
 * Visiem modeļa izvades failiem jāatrodas zināmā mapē (pēc noklusējuma `data/` mape), lai programma varētu tos nolasīt
@@ -19,11 +19,13 @@ Repozitorijs ietver 2 failus, kas izstrādāti darba ietvaros:
 * Jāpārliecinās, ka ir lejupielādētas vajadzīgās bibliotēkas: 
     * `pip install rasterio geopandas numpy matplotlib shapely`
 * Darbināt var ar: 
-    * `python main.py` 
+    * `python ski_run_generator.py` 
 * Programma atgriež trīs failus, kurus pēc tam var atvērt **QGIS**:
     * ***generated_ski_runs.gpkg*** - satur 4 vektordatu slāņus ar klasificētām slēpošanas trasēm (visas trases, zilās trases, sarkanās trases un melnās trases) un to atribūtiem
     * ***generated_corridors.tif*** - satur rastra datus par katram sākumpunktam ģenerēto koridoru
     * ***cost_raster.tif*** - satur izveidoto izmaksu virsmas rastru
 ## 
+
+Kā arī ir pievienota `data/` mape, kura satur Červīnijas apgabala DAM un jau izveidotu beigu zonas masku, ar ko pietiek, lai piemēra ietvaros darbinātu risinājumu
 
 *Autors: Rūdolfs Arvīds Truls, rt21028*
